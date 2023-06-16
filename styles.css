@@ -1,0 +1,38 @@
+body, html {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+  body {
+
+    background-color:blue
+
+}
+
+.tarjeta{
+  background-color:brown;
+  margin:10px;
+  display: flex;
+  flex-direction:column;
+  border: 1px solid rgb(240, 128, 128);
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius:15px;
+  width: 40%;
+ 
+}
+.tarjeta .contenido{
+  flex-shrink:1;
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+  text-align:center;
+}
+
+.pie{
+  background-color: chartreuse;
+  border-radius:0 0 15px 15px;
+  padding: 10px;
+  text-align:center;
+
+}
+
